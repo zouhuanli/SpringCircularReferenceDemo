@@ -1,0 +1,56 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" external-system-id="Maven" name="SpringCircularReferenceDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/SpringCircularReferenceDemo</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>SpringCircularReferenceDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringCircularReferenceDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:6.0.11" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-observation:1.10.9" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.10.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:6.0.11" />
+          <element id="library" level="project" name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:4.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" />
+          <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.13" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:3.0.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:6.0.11" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.19" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.20" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.20.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.9" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/SpringCircularReferenceDemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SpringCircularReferenceDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
